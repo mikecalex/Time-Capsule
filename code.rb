@@ -1,4 +1,3 @@
-require 'pry'
 timeCapsule = []
 
 puts "Hello, what's your name?"
@@ -27,5 +26,4 @@ puts "\n#{name}, here's your time capsule list! \n =========="
 timeCapsule.each do |item, count|
   print ' * '
   puts "#{item} (#{count})"
-  binding.pry
 end
